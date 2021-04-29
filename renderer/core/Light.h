@@ -5,6 +5,24 @@ class Light
     /* data */
 };
 
-class 
+class PointLight:Light
+{
+
+};
+
+class DirectionalLight:Light
+{
+
+};
+
+class AmbientLight:Light
+{
+
+};
+
+class SpotLight:Light
+{
+
+};
 
 #endif
