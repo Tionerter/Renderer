@@ -1,8 +1,16 @@
 #ifndef _LIGHT_H_
 #define _LIGHT_H_
+#include "Color.h"
 class Light
 {
-    /* data */
+    Color color;
+    //位置
+    //强度
+    Color GetLightSourceColor();
+    Color GetColorInWorldSpace();
+    float GetIntensity();
+    void  GetPosition();
+
 };
 
 class PointLight:Light
